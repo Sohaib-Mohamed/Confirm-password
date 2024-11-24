@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>تأكيد كلمة المرور</title>
+</head>
+<body>
+
+    <form onsubmit="return checkPassword()">
+        <label for="password1">:أدخل كلمةالمرور</label>
+        <input type="password" id="password1" name="password1" required><br><br>
+
+        <label for="password2">:تأكيد كلمةالمرور</label>
+        <input type="password" id="password2" name="password2" required><br><br>
+
+        <input class="submit" type="submit" value="تأكيد">
+    </form>
+    
+<script src="index.js"></script>
+</body>
+</html>
